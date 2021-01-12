@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <%- include ("../partials/head.ejs") %>
+        <div class="container">
+            <h2 class="text-center my-4"><%= title %></h2>
+            <!-- view a list of students in tabular form -->
+            <div class="row">
+                <button type="button" class="btn btn-success m-2" role="modal">Create</button>    
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">1</td>
+                        <td>Do Hai Binh</td>
+                        <td>
+                            <button type="button" class="btn btn-primary">View</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+</html>
